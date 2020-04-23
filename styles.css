@@ -168,7 +168,7 @@ ul {
 
 .text h1 {
     font-size: 120px;
-    font-family: "Tinos";
+    font-family: "Montserrat", sans-serif;
     font-weight: lighter;
     letter-spacing: 5px;
 
@@ -179,11 +179,12 @@ ul {
 }
 .text h1 .hidetext {
     position: absolute;
+    font-size: 80px;
 }
 
 .text p {
     font-size: 40px;
-    font-family: "Tinos";
+    font-family: "Lora", serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: lighter;
@@ -225,77 +226,4 @@ ul {
     line-height: 2;
 }
 
-/* SCROLLDOWN
-=========================== */
-.scrolldown {
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 5px;
 
-    position: absolute;
-    bottom: 110px;
-    left: -60px;
-    transform: rotate(-90deg);
-}
-
-.scrolldown::before {
-    content: "";
-    border: 1px solid #fff;
-    width: 100px;
-    margin: 0 20px 0 0;
-    transform: translateY(-3px);
-    opacity: 0.5;
-    display: inline-block;
-}
-
-/* BOTTOMNAV
-=========================== */
-.bottomnav {
-    position: absolute;
-    bottom: 30px;
-    right: 50px;
-}
-
-.bottomnav .next {
-    font-size: 10px;
-    letter-spacing: 8px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-.bottomnav .next::after {
-    content: "";
-    display: inline-block;
-    border: 1px solid #fff;
-    width: 148px;
-    margin: 0 0 0 20px;
-    transform: translateY(-3px);
-}
-
-.bottomnav .nav {
-    display: flex;
-}
-
-.bottomnav ul {
-    background: #fff;
-    color: #000;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.bottomnav ul li {
-    padding: 30px 20px;
-    font-size: 25px;
-}
-
-.bottomnav-img {
-    background: url("./images/bottomnav-img.jpg") no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    height: 200px;
-    width: 300px;
-}

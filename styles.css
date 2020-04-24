@@ -195,13 +195,14 @@ ul {
 /* TEXT
 =========================== */
 .text {
-    color: #FFF200;
+    color: #fff200;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
     width: 1000px;
+    text-align: center;
 }
 
 .text h1 {

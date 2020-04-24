@@ -195,6 +195,7 @@ ul {
 /* TEXT
 =========================== */
 .text {
+    color: #FFF200;
     position: absolute;
     top: 50%;
     left: 50%;
